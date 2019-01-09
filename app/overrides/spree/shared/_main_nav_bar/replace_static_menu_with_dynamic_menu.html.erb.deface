@@ -1,0 +1,5 @@
+<!-- replace '#home-link' -->
+<%= render_navigation(context: :navigator,
+                      items: navigator_menu,
+                      skip_if_empty: true,
+                      expand_all: true) %>
